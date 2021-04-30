@@ -1,0 +1,32 @@
+this is version 1 of my project.
+
+i want this for commit 2.
+
+changed by shoaib
+this is changed now
+
+
+git rm --cached filename  -- to untrack a file
+git mv olderfilename newfilename -- to rename
+git rm filename -- to delete
+rm -rf .git -- to remove git repository
+
+git diff -- 
+git diff --staged -- 
+
+git log -p -- shows log with diff
+git log -p -3 -- shows last 3 commits
+git log --stat --
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days
+git log --pretty=format:"%h -- %an" -- using placeholders
+
+git commit --amend
+press i then change whatever u want
+press esc
+press :wq
+
+
+
